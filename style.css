@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: darkslategrey;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin-left: 20px;
+    transition: .3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 32px 0;
+}
+
+.main-content {
+    max-width: 1200px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+.main-content p {
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.main-content button {
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: dodgerblue;
+    transition: .3s;
+}
+
+.main-content button:hover {
+    background: #fff;
+    color: dodgerblue;
+}
+
+.pic-content {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    top: -110px;
+}
+
+img {
+    position: absolute;
+    max-width: 450px;
+    left: -150px;
+    border-radius: 16px;
+}
